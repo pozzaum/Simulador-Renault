@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\CMakeFiles\00d27724ae24e62550dd7b3b597c6657\generate_headers.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\CMakeFiles\generate_headers" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1B14AF08-D821-3511-8C85-C2C287FC2C2E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

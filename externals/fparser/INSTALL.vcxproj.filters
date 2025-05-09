@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\josen\Simulador_renault_rota2030\externals\fparser\CMakeFiles\6d2b7e55d971ecf1ff6c9dba14201caa\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4C61D9C8-C3AC-3B64-B10A-1667F8304930}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

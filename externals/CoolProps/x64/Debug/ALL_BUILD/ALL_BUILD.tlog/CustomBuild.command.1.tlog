@@ -1,0 +1,10 @@
+^D:\DOCUMENTOS\PROJ ROTA 2030 RENAULT\CODIGO NOVO\SIMULADOR_RENAULT_ROTA2030\EXTERNALS\COOLPROPS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Documentos/Proj Rota 2030 Renault/Codigo Novo/Simulador_renault_rota2030/externals/CoolProps" "-BD:/Documentos/Proj Rota 2030 Renault/Codigo Novo/Simulador_renault_rota2030/externals/CoolProps" --check-stamp-file "D:/Documentos/Proj Rota 2030 Renault/Codigo Novo/Simulador_renault_rota2030/externals/CoolProps/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

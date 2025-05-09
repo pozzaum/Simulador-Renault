@@ -1,0 +1,10 @@
+^D:\DOCUMENTOS\PROJ ROTA 2030 RENAULT\CODIGO NOVO\SIMULADOR_RENAULT_ROTA2030\EXTERNALS\FPARSER\CMAKEFILES\E88D8B07784ECA7BA4AFAA073E080AC3\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Documentos/Proj Rota 2030 Renault/Codigo Novo/Simulador_renault_rota2030/externals/fparser" "-BD:/Documentos/Proj Rota 2030 Renault/Codigo Novo/Simulador_renault_rota2030/externals/fparser" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Documentos/Proj Rota 2030 Renault/Codigo Novo/Simulador_renault_rota2030/externals/fparser/fparser.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

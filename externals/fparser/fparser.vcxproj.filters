@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\fparser\fparser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\fparser\fpoptimizer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\fparser\fparser.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\fparser\fpconfig.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\fparser\extrasrc\fptypes.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\fparser\extrasrc\fpaux.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\fparser\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1860AC83-5574-3F54-A393-C03FF9D43CF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7F99742C-BEFE-3142-B589-C2EDA3FDDE3E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

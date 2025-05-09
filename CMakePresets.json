@@ -1,0 +1,257 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 19,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "default",
+      "hidden": true,
+      "generator": "Ninja Multi-Config",
+      "architecture": {
+        "value": "x64"
+      },
+      "binaryDir": "${sourceDir}/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "YES",
+        "CMAKE_PREFIX_PATH": "C:/Qt/6.10.0/msvc2022_64"
+      }
+    },
+    {
+      "name": "Debug",
+      "inherits": "default",
+      "description": "Debug build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_CXX_FLAGS": "/Zi /Od /DDEBUG /MDd",
+        "CMAKE_C_FLAGS": "/Zi /Od /DDEBUG /MDd",
+        "CMAKE_EXE_LINKER_FLAGS": "/DEBUG",
+        "CMAKE_SHARED_LINKER_FLAGS": "/DEBUG",
+        "COOLPROP_DEBUG": true,
+        "COOLPROP_MSVC_DEBUG": true,
+        "COOLPROP_MSVC_STATIC": true,
+        "COOLPROP_STATIC_LIBRARY": true,
+        "COOLPROP_RELEASE": false
+      }
+    },
+    {
+      "name": "Release",
+      "inherits": "default",
+      "description": "Release build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_CXX_FLAGS": "/MD /O2 /Ob2 /DNDEBUG",
+        "CMAKE_C_FLAGS": "/MD /O2 /Ob2 /DNDEBUG",
+        "CMAKE_EXE_LINKER_FLAGS": "/OPT:REF /OPT:ICF",
+        "CMAKE_SHARED_LINKER_FLAGS": "/OPT:REF /OPT:ICF",
+        "COOLPROP_DEBUG": false,
+        "COOLPROP_MSVC_DEBUG": false,
+        "COOLPROP_MSVC_STATIC": true,
+        "COOLPROP_STATIC_LIBRARY": true,
+        "COOLPROP_RELEASE": true
+      }
+    },
+    {
+      "name": "HeatEx_debug",
+      "displayName": "Heat Exchanger D",
+      "inherits": "Debug",
+      "hidden": false,
+      "description": "Heat Exchanger Debug build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "HeatEx_debug"
+      }
+    },
+    {
+      "name": "HeatEx_release",
+      "displayName": "Heat Exchanger R",
+      "inherits": "Release",
+      "hidden": false,
+      "description": "Heat Exchanger Release build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "HeatEx_release"
+      }
+    },
+    {
+      "name": "BatEvap_debug",
+      "displayName": "Battery Evaporator D",
+      "inherits": "Debug",
+      "hidden": false,
+      "description": "Battery Evaporator Debug build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "BatEvap_debug"
+      }
+    },
+    {
+      "name": "BatEvap_release",
+      "displayName": "Battery Evaporator R",
+      "inherits": "Release",
+      "hidden": false,
+      "description": "Battery Evaporator Release build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "BatEvap_release"
+      }
+    },
+    {
+      "name": "Comp_debug",
+      "displayName": "Compressor D",
+      "inherits": "Debug",
+      "hidden": false,
+      "description": "Compressor Debug build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Comp_debug"
+      }
+    },
+    {
+      "name": "Comp_release",
+      "displayName": "Compressor R",
+      "inherits": "Release",
+      "hidden": false,
+      "description": "Compressor Release build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Comp_release"
+      }
+    },
+    {
+      "name": "Cond_debug",
+      "displayName": "Condenser D",
+      "inherits": "Debug",
+      "hidden": false,
+      "description": "Condenser Debug build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Cond_debug"
+      }
+    },
+    {
+      "name": "Cond_release",
+      "displayName": "Condenser R",
+      "inherits": "Release",
+      "hidden": false,
+      "description": "Condenser Release build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Cond_release"
+      }
+    },
+    {
+      "name": "ExpDev_debug",
+      "displayName": "Expansion Device D",
+      "inherits": "Debug",
+      "hidden": false,
+      "description": "Expansion Device Debug build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "ExpDev_debug"
+      }
+    },
+    {
+      "name": "ExpDev_release",
+      "displayName": "Expansion Device R",
+      "inherits": "Release",
+      "hidden": false,
+      "description": "Expansion Device Release build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "ExpDev_release"
+      }
+    },
+    {
+      "name": "DoubleEvap_debug",
+      "displayName": "Double Evaporator D",
+      "inherits": "Debug",
+      "hidden": false,
+      "description": "Double Evaporator Debug build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "DoubleEvap_debug"
+      }
+    },
+    {
+      "name": "DoubleEvap_release",
+      "displayName": "Double Evaporator R",
+      "inherits": "Release",
+      "hidden": false,
+      "description": "Double Evaporator Release build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "DoubleEvap_release"
+      }
+    },
+    {
+      "name": "PowerTrain_debug",
+      "displayName": "PowerTrain D",
+      "inherits": "Debug",
+      "hidden": false,
+      "description": "PowerTrain Debug build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "PowerTrain_debug"
+      }
+    },
+    {
+      "name": "PowerTrain_release",
+      "displayName": "PowerTrain R",
+      "inherits": "Release",
+      "hidden": false,
+      "description": "PowerTrain Release build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "PowerTrain_release"
+      }
+    },
+    {
+      "name": "Cabin_debug",
+      "displayName": "Cabin D",
+      "inherits": "Debug",
+      "hidden": false,
+      "description": "Cabin Debug build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Cabin_debug"
+      }
+    },
+    {
+      "name": "Cabin_release",
+      "displayName": "Cabin R",
+      "inherits": "Release",
+      "hidden": false,
+      "description": "Cabin Release build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Cabin_release"
+      }
+    },
+    {
+      "name": "MqttConnect_debug",
+      "displayName": "MqttConnect D",
+      "inherits": "Debug",
+      "hidden": false,
+      "description": "MqttConnect build com MSVC Debug",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "MqttConnect_debug"
+      }
+    },
+    {
+      "name": "MqttConnect_release",
+      "displayName": "MqttConnect R",
+      "inherits": "Release",
+      "hidden": false,
+      "description": "MqttConnect build com MSVC Release",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "MqttConnect_release"
+      }
+    },
+    {
+      "name": "All_debug",
+      "displayName": "All components D",
+      "inherits": "Debug",
+      "hidden": false,
+      "description": "Build all components in Debug mode",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "All_debug"
+      }
+    },
+    {
+      "name": "All_release",
+      "displayName": "All components R",
+      "inherits": "Release",
+      "hidden": false,
+      "description": "Build all components in Release mode",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "All_release"
+      }
+    }
+  ]
+}

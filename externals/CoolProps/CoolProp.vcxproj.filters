@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\AbstractState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\CPfilepaths.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\CPnumerics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\CPstrings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Configuration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\CoolProp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\CoolPropTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\DataStructures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Helmholtz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\HumidAirProp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Ice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\MatrixMath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\ODEIntegrators.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\PolyMath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Solvers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\SpeedTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\Cubics\CubicBackend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\Cubics\CubicsLibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\Cubics\GeneralizedCubic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\Cubics\UNIFAC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\Cubics\UNIFACLibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\Cubics\VTPRBackend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\IF97\IF97Backend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\Helmholtz\FlashRoutines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\Helmholtz\Fluids\Ancillaries.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\Helmholtz\Fluids\FluidLibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\Helmholtz\HelmholtzEOSBackend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\Helmholtz\HelmholtzEOSMixtureBackend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\Helmholtz\MixtureDerivatives.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\Helmholtz\MixtureParameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\Helmholtz\PhaseEnvelopeRoutines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\Helmholtz\ReducingFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\Helmholtz\TransportRoutines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\Helmholtz\VLERoutines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\REFPROP\REFPROPBackend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\REFPROP\REFPROPMixtureBackend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\Incompressible\IncompressibleBackend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\Incompressible\IncompressibleFluid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\Incompressible\IncompressibleLibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\Tabular\BicubicBackend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\Tabular\TTSEBackend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\Tabular\TabularBackends.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\PCSAFT\PCSAFTBackend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\PCSAFT\PCSAFTFluid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\Backends\PCSAFT\PCSAFTLibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\src\CoolPropLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documentos\Proj Rota 2030 Renault\Codigo Novo\Simulador_renault_rota2030\externals\CoolProps\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B0EF9918-6F04-3B0F-A7D8-A2280B5087DB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

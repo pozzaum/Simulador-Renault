@@ -1,0 +1,6 @@
+D:/Documentos/Proj Rota 2030 Renault/Codigo Novo/Simulador_renault_rota2030/externals/CoolProps/CMakeFiles/generate_headers.dir
+D:/Documentos/Proj Rota 2030 Renault/Codigo Novo/Simulador_renault_rota2030/externals/CoolProps/CMakeFiles/generate_examples.dir
+D:/Documentos/Proj Rota 2030 Renault/Codigo Novo/Simulador_renault_rota2030/externals/CoolProps/CMakeFiles/CoolProp.dir
+D:/Documentos/Proj Rota 2030 Renault/Codigo Novo/Simulador_renault_rota2030/externals/CoolProps/CMakeFiles/INSTALL.dir
+D:/Documentos/Proj Rota 2030 Renault/Codigo Novo/Simulador_renault_rota2030/externals/CoolProps/CMakeFiles/ALL_BUILD.dir
+D:/Documentos/Proj Rota 2030 Renault/Codigo Novo/Simulador_renault_rota2030/externals/CoolProps/CMakeFiles/ZERO_CHECK.dir

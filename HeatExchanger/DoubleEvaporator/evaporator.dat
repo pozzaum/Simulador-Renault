@@ -1,0 +1,21 @@
+numberOfPipes
+24
+end
+
+numberOfChannels	11
+
+tubeLength	220.7e-3
+tubeWidth	17.72e-3
+tubePitch	9.4e-3
+channelHeight	0.833e-3
+channelWidth	1.25e-3
+finDepth	19.0e-3
+finHeight	8.0e-3
+finPitch	1.3e-3
+finThickness	0.1e-3
+louverHeight	8.0e-3
+louverPitch	1.3e-3
+louverAngle	33.0
+
+tolerance 	1.0e-5
+

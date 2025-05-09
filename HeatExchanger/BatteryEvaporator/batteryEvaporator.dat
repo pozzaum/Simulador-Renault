@@ -1,0 +1,14 @@
+numberOfTubes	6
+
+numberOfChannels	11
+
+tubeLength	220.7e-3
+tubeWidth	17.72e-3
+channelHeight	0.833e-3
+channelWidth	1.25e-3
+moduleWidth	0.692
+moduleLength	1.08
+moduleHeight	0.125
+moduleThermalConductivity	25.0
+
+tolerance 	1.0e-5

@@ -1,0 +1,18 @@
+fluid	R134a
+
+dTsub	3.0
+dTsup	10.0
+Te	2.0
+Tc	47.0
+
+N	133.3
+mac	0.6
+Tac	30.0	
+xc	0.5
+xb	0.0
+mae	0.15
+Tae	30.0
+wae	0.0
+Tb	35.0
+
+tolerance	1.0e-5
